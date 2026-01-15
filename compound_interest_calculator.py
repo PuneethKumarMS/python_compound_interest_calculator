@@ -25,5 +25,5 @@ while True:
     else:
         break
 
-total = principle * pow((1 + rate/100), time)
+total = principle * pow((1 + rate/100), time) # compound interest formula 
 print(f"Balance after {time} year/s: {total:.2f} Rs /-")
